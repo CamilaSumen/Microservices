@@ -1,2 +1,7 @@
-spring.application.name=servicio-items
-server.port=8002
+spring:
+  application:
+    name: utp-servicio-items
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
